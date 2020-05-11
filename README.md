@@ -4,7 +4,6 @@ Petro Buyahi
 
 ## Installation
 
-* Clone the repo: `https://github.com/Omware/Organisational-API.git`
 * Run the command `gradle build`
 * Run the tests `gradle test`
 * Launch the app `gradle run`.
