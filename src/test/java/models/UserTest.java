@@ -10,4 +10,17 @@ public class UserTest {
 
         assertEquals(true, user instanceof User);
     }
+
+    @Test
+    public void getUserName() {
+        assertEquals("Moses", user.getName());
+    }
+    @Test
+    public void getsUserDepartmentId() {
+        assertEquals(1, user.getDepartmentId());
+    }
+    @Test
+    public void getsUserRole() {
+        assertEquals("Maintain servers", user.getRole());
+    }
 }
