@@ -1,4 +1,4 @@
-ackage models;
+package models;
 
 
 import org.junit.Test;
@@ -7,27 +7,24 @@ public class DepartmentTest {
     @Test
     public void departmentInstanciatesCorrectly() {
         Department department = new Department("Accounting", "Deals with Accounting", 50);
-        assertEquals(true, department instanceof Department);
+        assertEquals (true, department instanceof Department);
     }
 
     @Test
     public void getsDepartmentName() {
         Department department = new Department("Accounting", "Deals with Accounting", 50);
-        assertEquals("Accounting", department.getDepartmentName());
+        assertEquals ("Accounting", department.getDepartmentName());
     }
-
     @Test
     public void getsDepartmentDescription() {
         Department department = new Department("Accounting", "Deals with Accounting", 50);
-        assertEquals("Deals with Accounting", department.getdepartmentDescription());
+        assertEquals ("Deals with Accounting", department.getdepartmentDescription());
     }
-
     @Test
     public void getsDepartmentEmployees() {
         Department department = new Department("Accounting", "Deals with Accounting", 50);
-        assertEquals(50, department.getNumberOfEmployees());
+        assertEquals (50, department.getNumberOfEmployees());
     }
-
     @Test
     public void setsDepartmentName() {
         Department department = new Department("Accounting", "Deals with Accounting", 50);

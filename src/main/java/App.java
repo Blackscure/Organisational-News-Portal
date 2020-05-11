@@ -1,7 +1,8 @@
 import static spark.Spark.*;
 
 import com.google.gson.Gson;
-import exceptions.ApiException;
+import exceptions
+        .ApiException;
 import models.*;
 import dao.*;
 
