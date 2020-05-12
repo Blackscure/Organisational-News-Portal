@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'org.example'
@@ -18,4 +19,8 @@ dependencies {
     compile group: 'org.postgresql', name: 'postgresql', version: '9.3-1100-jdbc4'
     compile group: 'org.postgresql', name: 'postgresql', version: '42.2.2'
 }
+
+applicationName = "Organisation_API"
+mainClassName = 'App'
+task stage(dependsOn: ['clean', 'installDist'])
 
